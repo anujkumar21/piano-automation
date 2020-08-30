@@ -7,4 +7,8 @@ public interface PianoLocators {
 
     String xpathBlackKey = "//android.widget.ImageButton[@resource-id='com.nullapp.piano:id/%s']";
     String xpathWhiteKey = "//android.widget.TextView[@text='%s']";
+
+    String DELIMITER = "\\|";
+
+    String SINGLE_KEYBOARD = "single_keyboard";
 }
