@@ -47,7 +47,7 @@ public class Piano implements PianoLocators {
     }
 
     private void music(String key, int time) throws InterruptedException {
-        System.out.println(format("Press note '%s' for %d seconds.", key, time));
+        System.out.println(format("Press note '%s' for %d milliseconds.", key, time));
         switch (key) {
             case "B-":
                 hit(WHITE, "B3", time);
